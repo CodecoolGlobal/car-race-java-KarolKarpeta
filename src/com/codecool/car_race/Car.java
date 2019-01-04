@@ -1,16 +1,19 @@
 package com.codecool.car_race;
 
+import java.util.Random;
+
 public class Car {
-    int normalSpeed;
+    private int normalSpeed;
     String name;
-    double distanceTraveled;
+    private double distanceTraveled = 0;
 
-    public int prepareForLap(Race race) {
-
-        return 0;
+    public void prepareForLap(Race race) {
+        Random randomNumber = new Random();
+        int i = randomNumber.nextInt(31);
+        this.normalSpeed = 80 + i;
     }
 
     public void moveForAnHour() {
-
+        this.distanceTraveled = distanceTraveled + normalSpeed;
     }
 }

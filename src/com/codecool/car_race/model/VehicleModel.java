@@ -1,5 +1,7 @@
 package com.codecool.car_race.model;
 
+import com.codecool.car_race.Race;
+
 public abstract class VehicleModel {
     public double distanceTraveled;
     public int speed;
@@ -12,4 +14,5 @@ public abstract class VehicleModel {
     public void setName(String name) {
         this.name = name;
     }
+
 }

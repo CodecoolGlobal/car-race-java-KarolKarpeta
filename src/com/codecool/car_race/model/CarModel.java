@@ -24,4 +24,7 @@ public class CarModel extends VehicleModel {
 
         normalSpeed = random.nextInt(CAR_SPEED_DIFFERENCE_RANGE) + MIN_CAR_SPEED; // car speed is between 80 and 110 km/h
         setSpeed(normalSpeed);
-    }}
+    }
+
+
+}

@@ -30,8 +30,8 @@ public class Race {
 
     void printRaceResults() {
         for (VehicleModel vehicle : vehicles) {
-            System.out.println(vehicle.name);
-            System.out.println(vehicle.distanceTraveled + "\n");
+            System.out.println(vehicle.getName());
+            System.out.println(vehicle.getDistanceTraveled() + "\n");
         }
     }
 

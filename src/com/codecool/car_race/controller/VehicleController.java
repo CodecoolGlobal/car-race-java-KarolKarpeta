@@ -13,14 +13,7 @@ public abstract class VehicleController {
         this.vehicleView = vehicleView;
     }
 
-    public void moveForAnHour() {
-        vehicleModel.distanceTraveled += vehicleModel.speed;
-    }
 
-    abstract void prepareForLap(Race race);
-
-    public double getDistanceTraveled() {
-        return vehicleModel.distanceTraveled;
-    }
 
 }
+//TODO wszystkie klasy controllerowe przerzucić do modelu, nie potrzebuję tutaj controllera, moim controllerem w tej aplikacji jest Race

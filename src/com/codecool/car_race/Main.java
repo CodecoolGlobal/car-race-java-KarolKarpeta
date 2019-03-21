@@ -43,6 +43,6 @@ public class Main {
         race.addVehicles(createVehicles());
         race.simulateRace(race);
         race.printRaceResults();
-
     }
+    //TODO połączyć main i race
 }
